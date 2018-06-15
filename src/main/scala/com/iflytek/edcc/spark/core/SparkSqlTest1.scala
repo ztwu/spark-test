@@ -4,7 +4,8 @@ package com.iflytek.edcc.spark.core
   * Created by ztwu2 on 2017/10/11.
   */
 import org.apache.log4j.Logger
-import org.apache.spark.sql.SQLContext
+import org.apache.spark.sql.types.{DataTypes, StructField, StructType}
+import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
 object SparkSqlTest1 {
