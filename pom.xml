@@ -14,7 +14,7 @@
         <encoding>UTF-8</encoding>
         <scala.version>2.10.4</scala.version>
         <spark.version>1.6.1</spark.version>
-        <hadoop.version>2.6.0</hadoop.version>
+        <hadoop.version>2.10.1</hadoop.version>
         <!--<scope.flag>provided</scope.flag>-->
         <scope.flag>compile</scope.flag>
     </properties>
